@@ -1223,7 +1223,7 @@ form .button-area {
   top: calc(100% - 12rem);
 }
 .waving-hand {
-  width: 30px;  /* Adjust the size of the waving hand */
+  width: 40px;  /* Adjust the size of the waving hand */
   height: auto;
   vertical-align: middle; /* Aligns the hand image with the text */
   margin-right: 10px; /* Adds space between the hand gif and the text */
