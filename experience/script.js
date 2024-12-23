@@ -59,7 +59,7 @@ function(){
         $("#favicon").attr("href","/assets/images/favicon.png");
     }
     else {
-        document.title = "Come Back To Site";
+        document.title = "Sam Maalaoui";
         $("#favicon").attr("href","/assets/images/favhand.png");
     }
 });

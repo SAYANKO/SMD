@@ -63,7 +63,7 @@ document.addEventListener('visibilitychange',
             $("#favicon").attr("href", "assets/images/favicon.png");
         }
         else {
-            document.title = "Come Back To Space";
+            document.title = "Sam Maalaoui";
             $("#favicon").attr("href", "assets/images/favhand.png");
         }
     });
