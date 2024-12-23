@@ -351,9 +351,10 @@ header .navbar ul li a:hover{
   top: calc(100% - 12rem);
 }
 .waving-hand {
-  width: 30px;  /* Adjust the size as needed */
+  width: 30px;  /* Adjust the size of the waving hand */
   height: auto;
-  vertical-align: middle; /* Ensures it aligns nicely with the text */
+  vertical-align: middle; /* Aligns the hand image with the text */
   margin-right: 10px; /* Adds space between the hand gif and the text */
 }
+
 /* scroll top ends */
