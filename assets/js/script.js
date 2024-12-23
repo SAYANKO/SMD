@@ -71,7 +71,7 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["Microsoft Security", "Purview Compliance", "Defender", "Identity Management", "Information Protection"],
+    strings: ["Microsoft Security", "🛡️ Microsoft Purview Data Loss Prevention (MDLP)", "📧 Microsoft Defender For Office 365 (MDO)", "Identity Management", "🔐 Conditional Access", "📋 Privileged Identity Management (PIM)", "🖥️ Microsoft Defender For Endpoints (MDE)", "Purview Compliance", "Information Protection"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
