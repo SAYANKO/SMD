@@ -1222,4 +1222,11 @@ form .button-area {
 #scroll-top.active {
   top: calc(100% - 12rem);
 }
+.waving-hand {
+  width: 40px;  /* Adjust the size as needed */
+  height: auto;
+  vertical-align: middle; /* Ensures it aligns nicely with the text */
+  margin-right: 10px; /* Adds space between the hand gif and the text */
+}
+
 /* scroll top ends */
