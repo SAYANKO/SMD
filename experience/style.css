@@ -463,4 +463,10 @@ header .navbar ul li a:hover{
 #scroll-top.active{
   top: calc(100% - 12rem);
 }
+.waving-hand {
+  width: 30px;  /* Adjust the size as needed */
+  height: auto;
+  vertical-align: middle; /* Ensures it aligns nicely with the text */
+  margin-right: 10px; /* Adds space between the hand gif and the text */
+}
 /* scroll top ends */
