@@ -55,7 +55,7 @@ document.onkeydown = function(e) {
 document.addEventListener('visibilitychange',
 function(){
     if(document.visibilityState === "visible"){
-        document.title = "Experience | Space Sam Maalaoui";
+        document.title = "Experience | Sam Maalaoui";
         $("#favicon").attr("href","/assets/images/favicon.png");
     }
     else {

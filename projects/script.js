@@ -20,7 +20,7 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Projects | Space Sam Maalaoui";
+            document.title = "Projects | Sam Maalaoui";
             $("#favicon").attr("href", "/assets/images/favicon.png");
         }
         else {

@@ -59,7 +59,7 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Space | Sam Maalaoui";
+            document.title = "Sam Maalaoui";
             $("#favicon").attr("href", "assets/images/favicon.png");
         }
         else {
