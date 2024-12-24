@@ -1240,6 +1240,30 @@ form .button-area {
   vertical-align: middle; /* Aligns the hand image with the text */
   margin-right: 10px; /* Adds space between the hand gif and the text */
 }
-
-
 /* scroll top ends */
+/* Begin Ocean Wave footer*/
+.wave-text {
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: "Nunito", sans-serif;
+  background: linear-gradient(90deg, #00aaff, #00ffaa, #00aaff);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: oceanWave 3s ease-in-out infinite;
+  text-align: center;
+}
+
+@keyframes oceanWave {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+/* End Ocean Wave footer*/
