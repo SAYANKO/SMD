@@ -1267,3 +1267,82 @@ form .button-area {
   }
 }
 /* End Ocean Wave footer*/
+/* Contact Section Styling */
+.contact {
+  background: #e5ecfb;
+  min-height: 60vh;
+}
+.contact .container {
+  max-width: 1050px;
+  width: 100%;
+  background: #fff;
+  border-radius: 1.5rem;
+  margin: 2rem auto;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+.contact .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2.5rem;
+}
+.contact .redirect {
+  max-width: 45%;
+}
+
+/* Button Styling with Preserved Colors */
+.pulse-btn {
+  display: inline-block;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  padding: 13px 25px;
+  color: #fff; /* Preserving original white text */
+  background: #2506ad; /* Original deep purple */
+  border-radius: 50px; /* Rounded pill shape */
+  box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6); /* Original shadow */
+  transition: all 0.3s ease-in-out;
+  position: relative;
+}
+
+/* Hover Effect */
+.pulse-btn:hover {
+  background: #421cecf5; /* Original hover color */
+  box-shadow: 0 8px 16px rgba(48, 68, 247, 0.8); /* Enhanced shadow */
+  transform: scale(1.1);
+  animation: pulse 0.6s infinite; /* Heartbeat animation */
+}
+
+/* Heartbeat Animation */
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(48, 68, 247, 0.8);
+  }
+  50% {
+    transform: scale(1.15);
+    box-shadow: 0 12px 24px rgba(48, 68, 247, 1);
+  }
+}
+
+/* LinkedIn Icon Adjustment */
+.pulse-btn i {
+  margin-left: 8px;
+  font-size: 1.5em;
+}
+
+/* Media Query for Smaller Screens */
+@media (max-width: 900px) {
+  .contact .content {
+    flex-direction: column;
+    text-align: center;
+  }
+  .contact .image-box {
+    margin: 0 auto 2rem;
+    max-width: 80%;
+  }
+  .contact .redirect {
+    max-width: 100%;
+  }
+}
